@@ -1,0 +1,24 @@
+.card-note__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+.card-note__container > h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.card-note__container-note {
+    width: 95%;
+    height: 100%;
+    background: none;
+    margin: 1rem;
+    border-radius: 8px;
+    padding: .5rem 1rem;
+    justify-content: justify-content;
+    resize: none;
+}

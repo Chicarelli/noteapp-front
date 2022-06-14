@@ -1,0 +1,30 @@
+.edit-note__container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.edit-note__container > .button {
+    border-radius: 5px;
+    border: 1px solid black;
+    color: #FFF;
+    font-weight: bold;
+    padding: 0 1rem;
+    font-size: .9rem;
+    transition: .3s;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: .7;
+}
+
+.edit-note__container > .button.cancel {
+    background: #BBB;
+}
+
+.edit-note__container > .button.save {
+    background: purple;
+}
